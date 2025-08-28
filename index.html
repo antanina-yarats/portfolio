@@ -1,10 +1,554 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="refresh" content="0; url='https://understood-able-jackal.glitch.me/'" />
-    <title>Redirecting...</title>
-</head>
-<body>
-    <p>Redirecting to my portfolio...</p>
-</body>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio</title>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!--     <div class="container"> -->
+      <!-- Navigation menu -->
+      <nav class="header">
+         <img class="logo" src="assets/images/covers/other/Logo.svg" alt="myName">
+         <div id="hamburger">
+            <div class="particle lineOne"></div>
+            <div class="particle lineTwo"></div>
+            <div class="particle lineThree"></div>
+         </div>
+         <ul id="menuHidden">
+            <li class="item"><a class="link" href="#linkToHome">Home</a></li>
+            <li class="item"><a class="link" href="#linkToProjects">Projects</a></li>
+            <li class="item"><a class="link" href="#linkToSkills">Skills</a></li>
+            <li class="item"><a class="link" href="#linkToContacts">Contacts</a></li>
+         </ul>
+      </nav>
+      <!-- Welcome page -->
+      <div class="welcome" id="linkToHome">
+         <div class="welcomeImage">
+            <canvas id="myCanvas"></canvas>
+         </div>
+         <div class="welcomeText">
+            <div class="textDiv">
+               <h1 id="hello">Hello world</h1>
+               <br>
+               <h3 class="intro">I’m Antanina Yarats, a full-stack developer with passion to build responsive applications that are as intuitive as they are visually compelling. I love turning complex challenges into seamless digital experiences!
+               </h3>
+            </div>
+         </div>
+      </div>
+      <br>
+
+      <!-- Projects -->
+      <div id="linkToProjects">
+      </div>
+
+      <div class="title" >
+         <h1 class="heading">My projects</h1>
+      </div>
+
+      <div id="app">
+
+    <!-- Front-end projects -->
+
+    <!-- Front-end projects category  -->
+
+      <div class="proContainer" >
+         
+         <div class="project category" id="frontend-category">
+            <div class="cover"  >
+               <h1 class="projectName">
+                  FRONT-END 
+               </h1>
+               <p class="description">
+                  Applications built with Vanilla JavaScript and animation libraries, featuring a responsive, mobile-first design.
+               </p>
+               <span class="toggle-arrow">▼</span>
+            </div>
+            <img class="projectImg" src="assets/images/covers/frontend_cover.jpeg" alt="picture" >
+        </div>
+
+       <!-- Front-end project list initially hidden  -->
+
+    
+      <div id="frontend-projects"  class="proContainer hidden" >
+         <!--          Project divs -->
+         <!--          Project 1 Planner -->
+         <div class="project">
+            <div class="cover"  >
+               <h1 class="projectName">
+                  Planner 
+               </h1>
+               <p class="description">
+                  A simple to-do-list application that uses Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://simple-js-planner.netlify.app/" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/planner.jpeg" alt="picture" >
+         </div>
+        
+         <!--          Project 2 Slider -->
+         <div class="project">
+            <div class="cover" >
+               <h1 class="projectName">
+                  Slider 
+               </h1>
+               <p class="description">
+                  A slider application built with Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://slider-js-gsap.netlify.app" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/slider.jpeg" alt="picture" >
+         </div>
+        
+        
+         <!--          Project 3 Meditation App -->
+         <div class="project">
+            <div class="cover" >
+               <h1 class="projectName">
+                  Meditation app
+               </h1>
+               <p class="description">
+                  A meditation application with timer that uses Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://meditate-and-relax.netlify.app/" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/meditation.jpeg" alt="picture" >
+         </div>
+        
+        
+         <!--          Project 4 Movie app -->
+         <div class="project">
+            <div class="cover" >
+               <h1 class="projectName">
+                  Movie app 
+               </h1>
+               <p class="description">
+                  A movie search application built with Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://dainty-biscochitos-f04385.netlify.app/" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/movie.jpeg" alt="picture" >
+         </div>
+      
+         
+         <!--          Project 6 Property -->
+         <div class="project">
+            <div class="cover" >
+               <h1 class="projectName">
+                  Property share calculator
+               </h1>
+               <p class="description">
+                  A cost splitting calculator application that uses Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://rental-cost-calculator.netlify.app" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/property.jpeg" alt="picture" >
+         </div>
+        
+        
+         <!--          Project 8 Weather app -->
+         <div class="project">
+            <div class="cover" >
+               <h1 class="projectName">
+                  Weather app 
+               </h1>
+               <p class="description">
+                  A weather forecast app that allows you to search by city. Built with Java Script and API
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://weather-check-in-city.netlify.app" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/weather.jpeg" alt="picture" >
+         </div>
+         
+         <!--          Project 10 Mattress Matcher  -->
+         <div class="project">
+            <div class="cover" >
+               <h1 class="projectName">
+                  Mattress Matcher app
+               </h1>
+               <p class="description">
+                  Find your perfect mattress and get better sleep. Built with Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://mattress-matcher.netlify.app/" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/mattress.jpeg" alt="picture" >
+         </div>
+        
+        
+         <!--          Project 11 Travel agency app -->
+         <div class="project" id="linkToSkills">
+            <div class="cover" >
+               <h1 class="projectName">
+                  A travel agency app
+               </h1>
+               <p class="description">
+                  Learn some curious facts, calculate your travel costs, win a tour and find your perfect travel destination. Built with Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://island-travel-app.netlify.app" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/travel_agency.jpeg" alt="picture" >
+         </div>
+        
+        
+         <!--          Project 12 Italian restaurant -->
+         <div class="project">
+            <div class="cover" >
+               <h1 class="projectName">
+                  Italian restaurant site
+               </h1>
+               <p class="description">
+                  Designed in Figma. Developed with HTML/CSS/Java Script
+               </p>
+               <button class="watch">
+               <a class="linkC" href="https://www.figma.com/file/NR3ZlI26Bxms1D825DfmcS/Italian-restaurant?node-id=0%3A1&t=2qQEDhu2CYvV4ll7-1" target="_blank">FIGMA</a>
+               </button>
+               <button class="watch">
+               <a class="linkC" href="https://italian-restaurant-food-delivery.netlify.app/" target="_blank">WATCH LIVE</a>
+               </button>
+            </div>
+            <img class="projectImg" src="assets/images/covers/italian.jpeg" alt="picture" >
+         </div>
+      </div>
+      
+     
+<!--         REACT -->
+
+        
+        <div id="react-category" class="project category" >
+            <div class="cover" >
+
+               <h1 class="projectName">
+                  REACT.js 
+               </h1>
+
+               <p class="description">
+                  React applications
+               </p>
+
+               <span class="toggle-arrow">▼</span>
+            </div>
+            <img class="projectImg" src="assets/images/covers/react_cover.jpeg" alt="picture" >
+         </div>
+        
+
+<!--          React projects list hidden initially -->
+
+ <div id="react-projects" class="proContainer hidden" >
+         
+            <div class="project">
+               <div class="cover"  >
+                  <h1 class="projectName">
+                     React Shopping List App
+                  </h1>
+                  <p class="description">
+                     This simple and visually appealing app allows you to create, manage, and track your shopping list effortlessly.
+                  </p>
+                  <button class="watch">
+                  <a class="linkC" href="https://resilient-gecko-34500f.netlify.app/" target="_blank">WATCH LIVE</a>
+                  </button>
+                   <button class="watch">
+                  <a class="linkC" href="https://github.com/antanina-yarats/shopping-list.git" target="_blank">WATCH ON GITHUB</a>
+                  </button>
+               </div>
+               <img class="projectImg" src="assets/images/covers/shopping.jpeg" alt="picture" >
+            </div>
+  
+  
+             <div class="project">
+               <div class="cover"  >
+                  <h1 class="projectName">
+                     Recipe Finder App
+                  </h1>
+                  <p class="description">
+                     The Recipe Finder App is a React-based application that allows users to search for recipes using the Edamam API.
+                  </p>
+                  <button class="watch">
+                  <a class="linkC" href="https://delish-react-recipes-api.netlify.app/" target="_blank">WATCH LIVE</a>
+                  </button>
+                   <button class="watch">
+                  <a class="linkC" href="https://github.com/antanina-yarats/recipes_app.git" target="_blank">WATCH ON GITHUB</a>
+                  </button>
+               </div>
+               <img class="projectImg" src="assets/images/covers/nutrition.jpeg" alt="picture" >
+            </div>
+
+   
+        </div>   
+      
+       
+        
+<!--         FULL-STACK -->
+      
+         <div id="fullstack-category" class="project category" >
+            <div class="cover" >
+
+               <h1 class="projectName">
+                  Full-STACK 
+               </h1>
+
+               <p class="description">
+                  Full-stack applications
+               </p>
+
+               <span class="toggle-arrow">▼</span>
+            </div>
+            <img class="projectImg" src="assets/images/covers/fullstack_cover.jpeg" alt="picture" >
+         </div>
+
+         </div>
+           
+
+         <!-- Full-stack projects list hidden initially -->
+
+    <div id="fullstack-projects" class="proContainer hidden" >
+         
+            <div class="project">
+               <div class="cover"  >
+                  <h1 class="projectName">
+                     Shopping list app
+                  </h1>
+                  <p class="description">
+                     Shopping list app helps to create shared shopping lists
+                  </p>
+<!--                   <button class="watch">
+                  <a class="linkC" href="https://shared-shopping-list-f3z1.onrender.com" target="_blank">WATCH LIVE</a>
+                  </button> -->
+                   <button class="watch">
+                  <a class="linkC" href="https://github.com/antanina-yarats/shared-shopping-list-main.git" target="_blank">WATCH ON GITHUB</a>
+                  </button>
+               </div>
+               <img class="projectImg" src="assets/images/covers/shared.jpeg" alt="picture" >
+            </div>
+        
+
+
+           <div class="project">
+               <div class="cover"  >
+                  <h1 class="projectName">
+                     Quiz app
+                  </h1>
+                  <p class="description">
+                     The app uses a REST API to manage topics, questions, and user interactions.  
+   It offers a seamless quiz experience with authentication,  
+   real-time answer validation, and structured data management.
+                  </p>
+                  <button class="watch">
+                  <a class="linkC" href="https://quiz-project-docker-1.onrender.com/" target="_blank">WATCH LIVE</a>
+                  </button>
+                   <button class="watch">
+                  <a class="linkC" href="https://github.com/antanina-yarats/quiz-project-docker.git" target="_blank">WATCH ON GITHUB</a>
+                  </button>
+               </div>
+               <img class="projectImg" src="assets/images/covers/quiz.jpeg" alt="picture" >
+            </div>     
+
+            </div>
+</div>
+  
+
+
+      <!--       My skills -->
+      <div id="linkToSkills" >
+      </div>
+     
+      <div class="title">
+         <h1 class="heading">My skills</h1>
+      </div>
+      <div class="skills">
+         <div class="skill" data-aos="fade-up"  data-aos-duration="2000">
+            <span class="skillSpan">
+               <i class="fa-brands fa-html5 fa-5x sign"></i>
+               <p class="name">HTML5</p>
+            </span>
+         </div>
+         <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+               <i class="fa-brands fa-css3-alt fa-5x sign"></i>
+               <p class="name">CSS3</p>
+            </span>
+         </div>
+         <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+               <i class="fa-brands fa-bootstrap fa-5x sign"></i>
+               <p class="name">Bootstrap</p>
+            </span>
+         </div>
+         <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+               <i class="fa-brands fa-js fa-5x sign"></i>
+               <p class="name">JavaScript</p>
+            </span>
+         </div>
+         <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+               <i class="fa-brands fa-figma fa-5x sign"></i>
+               <p class="name">Figma</p>
+            </span>
+         </div>
+        
+        <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-brands fa-react fa-5x sign"></i>
+              <p class="name">React</p></span>
+            </div>
+         
+        <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-brands fa-ubuntu fa-5x sign"></i>
+              <p class="name">Linux</p></span>
+            </div>
+
+
+         <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-brands fa-github fa-5x sign"></i>
+              <p class="name">GitHub</p></span>
+            </div>
+
+
+        <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-brands fa-docker fa-5x sign"></i>
+              <p class="name">Docker</p></span>
+            </div>
+
+
+         <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-solid fa-database fa-5x sign"></i>
+              <p class="name">PostgreSQL</p></span>
+            </div>
+
+
+         <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-solid fa-server fa-5x sign"></i>
+              <p class="name">Deno</p></span>
+            </div>
+
+        <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-solid fa-link fa-5x sign"></i>
+              <p class="name">API</p></span>
+            </div>
+        
+        <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+              <a href="https://youtu.be/H1JElfEQRRY" target="_blank"><i class="fa-brands fa-jira fa-5x sign"></i></a>
+              <p class="name">Jira/Agile/SCRUM</p></span>
+              
+            </div>
+        
+        <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-solid fa-cloud fa-5x sign"></i>
+              <p class="name">Render/Netlify</p></span>
+            </div>
+        
+        <div class="skill" data-aos="fade-down" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-solid fa-circle fa-5x sign"></i>
+              <p class="name">Next.js</p></span>
+            </div>
+        
+        <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-solid fa-code fa-5x sign"></i>
+              <p class="name">TypeScript</p></span>
+            </div>
+        
+        <div class="skill" data-aos="fade-up" data-aos-duration="2000">
+            <span class="skillSpan">
+              <i class="fa-solid fa-wind fa-5x sign"></i>
+              <p class="name">Tailwind CSS</p></span>
+            </div>
+            
+              
+      </div>
+      <div id="linkToContacts" >
+      </div>
+      <div class="title">
+         <h1 class="heading">Contact me</h1>
+      </div>
+      <!--       Contacts -->
+      <div id="contact">
+         <form 
+            action="https://formspree.io/f/mqkjwyqz"
+            method="POST" data-aos="zoom-in" data-aos-duration="1000">
+            <label>
+            <input type="text" name="name" required placeholder="Your name"> 
+            </label>
+            <label> 
+            <input type="email" name="email" required placeholder="Your email">
+            </label>
+            <label>
+            <textarea name="message" placeholder="Message" required></textarea>
+            </label>
+            <input type="hidden" name="_language" value="en" />
+            <button class="click" type="submit">
+            Send
+            </button>
+         </form>
+      </div>
+      <ul class="contactIcons">
+         <li class="contactBox">
+            <a class="contactIcon" href="mailto:antanina.yarats@gmail.com" target="_blank">
+               <ion-icon name="mail-outline"></ion-icon>
+            </a>
+         </li>
+         <li class="contactBox">
+            <a class="contactIcon" href="https://linkedin.com/in/antanina-yarats-59665448" target="_blank">
+               <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+         </li>
+                   <li class="contactBox"><a class="contactIcon" href="https://github.com/antanina-yarats" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+      </ul>
+      <br>
+      <!-- Line -->
+      <div class="line"></div>
+      <div class="footer">
+         <div class="col">
+            <p class="footerText">
+               Designed and developed by
+            </p>
+            <p class="footerText">
+               Antanina Yarats
+            </p>
+            
+         </div>
+      </div>
+      <!--   </div> -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://kit.fontawesome.com/862cca7663.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+   </body>
 </html>
